@@ -1,0 +1,43 @@
+Explore and explain the various methods in console function 
+
+Ans:
+1- console.time('Time taken');
+The console.time() method starts a timer in the console view.
+This method allows you to time certain operations in your code for testing purposes.
+
+
+2- console.log("Hey")
+The console.log() method writes a message to the console.
+The console is useful for testing purposes.
+
+
+3- console.error("an error occured!");
+The console.error() method writes an error message to the console.
+The console is useful for testing purposes.
+
+
+4- console.warn("Hey this is a warning!!");
+The console.warn() method writes a warning to the console.
+
+
+5- console.table({a ,b ,c})
+The console.table() method writes a table in the console view.
+The first parameter is required, and must be either an object, or an array, containing data to fill the table.
+
+
+6- console.log('%c Custom message','color:blue;')
+
+7- console.timeEnd('Time taken');
+The console.timeEnd() method ends a timer, and writes the result in the console view.
+This method allows you to time certain operations in your code for testing purposes.
+Use the console.time() method to start the timer.
+Use the label parameter to specify which timer to end.
+
+8- console.group()
+The console.group() method indicates the start of a message group.
+All messages will from now on be written inside this group.
+
+9- console.groupCollapsed()
+The console.groupCollapsed() method indicates the start of a collapsed message group.
+Click the expand button to open the message group.
+All messages will from now on be written inside this group.
